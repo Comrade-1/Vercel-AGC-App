@@ -1,0 +1,765 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<!-- Required meta tags -->
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha256-L/W5Wfqfa0sdBNIKN9cG6QA5F2qx4qICmU2VgLruv9Y=" crossorigin="anonymous" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/css/lightbox.min.css" integrity="sha256-tBxlolRHP9uMsEFKVk+hk//ekOlXOixLKvye5W2WR5c=" crossorigin="anonymous" />
+	<link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">	
+	<style type="text/css">
+	
+	body,html{font-family:"Helvetica Neue",Helvetica,Arial,sans-serif;font-size:14px;font-weight:400;background:#fff}img{max-width:100%}.header{padding-bottom:13px;margin-bottom:13px}.container{max-width:1024px}.navbar{margin-bottom:25px;color:#f1f2f3;border-bottom:1px solid #e1e2e3}.navbar .navbar-brand{margin:0 20px 0 0;font-size:28px;padding:0;line-height:24px}.row.content,.row.footer,.row.header{widthx:auto;max-widthx:100%}.row.footer{padding:30px 0;background:0 0}.content .col-sm-12{padding:0}.content .col-md-9s{margin-right:-25px}.posts-image{width:25%;display:block;float:left}.posts-image-content{width:auto;margin:0 15px 35px 0;position:relative}.posts-image:nth-child(5n) .posts-image-content{margin:0 0 35px!important}.posts-image img{width:100%;height:150px;object-fit:cover;object-position:center;margin-bottom:10px;-webkit-transition:.6s opacity;transition:.6s opacity}.posts-image:hover img{opacity:.8}.posts-image:hover h2{background:rgba(0,0,0,.7)}.posts-image h2{z-index:2;position:absolute;font-size:14px;bottom:2px;left:0;right:0;padding:5px;text-align:center;-webkit-transition:.6s opacity;transition:.6s background}.posts-image h2 a{color:#fff}.posts-image-big{display:block;width:100%}.posts-image-big .posts-image-content{margin:0 0 10px!important}.posts-image-big img{height:380px}.posts-image-big h2{text-align:left;padding-left:0;position:relative;font-size:30px;line-height:36px}.posts-image-big h2 a{color:#111}.posts-image-big:hover h2{background:0 0}.posts-image-single .posts-image-content,.posts-image-single:nth-child(5n) .posts-image-content{margin:0 15px 15px 0!important}.posts-image-single p{font-size:12px;line-height:18px!important}.posts-images{clear:both}.list-group li{padding:0}.list-group li a{display:block;padding:8px}.widget{margin-bottom:20px}h3.widget-title{font-size:20px}a{color:#f42966;text-decoration:none}.footer{margin-top:21px;padding-top:13px;border-top:1px solid #eee}.footer a{margin:0 15px}.navi{margin:13px 0}.navi a{margin:5px 2px;font-size:95%}
+	
+	@media  only screen and (min-width:0px) and (max-width:991px){.container{width:auto;max-width:100%}.navbar{padding:5px 0}.navbar .container{width:100%;margin:0 15px}}
+	@media  only screen and (min-width:0px) and (max-width:767px){.content .col-md-3{padding:15px}}@media  only screen and (min-width:481px) and (max-width:640px){.posts-image img{height:90px}.posts-image-big img{height:320px}.posts-image-single{width:33.3%}.posts-image-single:nth-child(3n) .posts-image-content{margin-right:0!important}}@media  only screen and (min-width:0px) and (max-width:480px){.posts-image img{height:80px}.posts-image-big img{height:240px}.posts-image-single{width:100%}.posts-image-single .posts-image-content{margin:0!important}.posts-image-single img{height:auto}}.v-cover{height: 380px; object-fit: cover;}.v-image{height: 200px; object-fit: cover;}.dwn-cover{max-height: 460px; object-fit: cover;}
+	
+	.main{margin-top: 6rem;}
+	.form-inline .form-control{min-width: 300px;}
+
+
+	.form-inline .search-box{color:#333;background-color:#f5f5f5;min-width:30px;;height:50px;padding:0 20px;border:none;border-radius:20px;outline:0;border:1px solid #002cd92e}.search-box:active,.search-box:focus,.search-box:hover{border:1px solid #d9008e}
+	
+	@media  only screen and (max-width:490px){
+		.form-inline .search-box{
+			color:#333;background-color:#f5f5f5;
+			width:80px;
+			height:50px;
+			padding:0 20px;
+			border:none;
+			border-radius:20px;
+			outline:0;border:1px solid #002cd92e;
+			font-size: 12px;
+		}
+	}
+	@media  only screen and (max-width:347px){
+		.form-inline .search-box{
+			color:#333;background-color:#f5f5f5;
+			width:80px;
+			height:50px;
+			padding:0 20px;
+			border:none;
+			border-radius:20px;
+			outline:0;border:1px solid #002cd92e;
+			font-size: 12px;
+			margin-right: -50px;
+		}
+
+		.navbar .navbar-brand {
+			margin: 0 20px 0 -40px;
+			font-size: 28px;
+			padding: 0;
+			line-height: 24px;
+		}
+	}
+	
+	</style>
+	<title>Fahrrad Community App - Trending</title>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org/", 
+  "@type": "Article", 
+  "author": {
+    "@type": "Person",
+    "name": "Frematers"
+  },
+  "headline": "Fahrrad Community App",
+  "datePublished": "2020-11-09",
+  "image": [&quot;https://i.pinimg.com/originals/a6/82/e7/a682e753a2c3713131f84c59c2f6276b.jpg&quot;,&quot;https://i.pinimg.com/originals/c0/00/a5/c000a583d04b5e73b963cc70e331a649.png&quot;,&quot;https://i.pinimg.com/564x/6d/a1/ba/6da1babbccb4a9b3fabca66b8add2fca.jpg&quot;],
+  "publisher": {
+    "@type": "Organization",
+    "name": "Idea Sports",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://via.placeholder.com/512.png?text=fahrrad community app",
+      "width": 512,
+      "height": 512
+    }
+  }
+}
+</script>
+	<!-- Head tag Code -->	<meta name="msvalidate.01" content="06D775BCED270F7A57481A6A03687B21" />
+</head>
+<body>
+	<header class="bg-white fixed-top">			
+		<nav class="navbar navbar-light bg-white mb-0">
+			<div class="container justify-content-center justify-content-sm-between">	
+			  <a href="/" title="Idea Sports" class="navbar-brand mb-1">Idea Sports</a>
+			  			   <!-- <form class="form-inline mb-1" action="/" method="get"> -->
+			   <form class="form-inline mb-1">
+				<!-- <input class="form-control mr-sm-2" type="search" name="q" placeholder="Search and hit enter.." aria-label="Search"> -->
+				<input class='search-box' id="search-box" placeholder='Search and hit enter..' type='text' name="q" required autocomplete="off" id="search-query">
+				
+			  </form>
+			</div>			  
+		</nav>				
+	</header>
+	<main id="main" class="main">
+		<div class="container">  
+			<div class="row content">
+				<div class="col-md-12 my-2" align="center">
+					<div class="d-block p-4">
+	<center>
+		<!-- TOP BANNER ADS -->
+	</center>
+</div>				</div>
+				<div class="col-md-9">
+					<div class="col-sm-12 p-2">
+							<h1>Fahrrad Community App</h1>
+
+	
+	<div class="navi text-center">
+					<p align="justify">Plan your perfect hiking mountain biking or road cycling adventure get the route perfect for your sport be it smooth asphalt for your. A text from post malone. Du fährst gerne fahrrad und möchtest neue radwege entdecken navigieren oder aufzeichnen. <br>				
+			</p>
+										<a class="badge badge-warning" href="/fahrradunfall-aktuell.html">fahrradunfall aktuell</a>
+											<a class="badge badge-info" href="/fahrradtr%C3%A4ger-x5.html">fahrradträger x5</a>
+											<a class="badge badge-warning" href="/fahrradtr%C3%A4ger-test-adac.html">fahrradträger test adac</a>
+											<a class="badge badge-primary" href="/fahrradtr%C3%A4ger-anh%C3%A4ngerkupplung-zus%C3%A4tzlich-sichern.html">fahrradträger anhängerkupplung zusätzlich sichern</a>
+											<a class="badge badge-success" href="/fahrradtr%C3%A4ger-ducato.html">fahrradträger ducato</a>
+											<a class="badge badge-success" href="/fahrradtr%C3%A4ger-unitec.html">fahrradträger unitec</a>
+											<a class="badge badge-success" href="/fahrradtr%C3%A4ger-golf-7.html">fahrradträger golf 7</a>
+											<a class="badge badge-info" href="/fahrradtr%C3%A4ger-mountainbike.html">fahrradträger mountainbike</a>
+						</div>
+	<div class="d-block p-4">
+	<center>
+		<!-- IN ARTICLE ADS -->
+		<script type="text/javascript">
+			atOptions = {
+				'key' : 'e7835a40c6da8cb1f9cb8e9ed16bfdc4',
+				'format' : 'iframe',
+				'height' : 250,
+				'width' : 300,
+				'params' : {}
+			};
+			document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://0x01n2ptpuz3.com/e7835a40c6da8cb1f9cb8e9ed16bfdc4/invoke.js"></scr' + 'ipt>');
+		</script>
+		<script async="async" data-cfasync="false" src="//0x01n2ptpuz3.com/f8f966f57e637397114fe6834e81b627/invoke.js"></script>
+<div id="container-f8f966f57e637397114fe6834e81b627"></div>
+	</center>
+</div>					</div> 
+					<div class="col-sm-12">					
+						
+		
+	<div class="row">
+	
+	<div class="col-md-12">
+        <!-- <h2>Spintax Test</h2> -->
+         <p align="justify">
+	If you're looking for picture and video information linked to the key word you have come to visit the ideal blog.  Our website provides you with suggestions for viewing the highest quality video and picture content, search and locate more informative video articles and graphics that fit your interests.
+</p>
+<p align="justify">
+	comprises one of tens of thousands of movie collections from several sources, particularly Youtube, so we recommend this movie for you to see.   This blog is for them to stop by this site.
+</p>
+
+
+    </div>
+        
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/b6/fa/32/b6fa3237ea940d051768f9bf7a31985f.jpg" data-lightbox="roadtrip" data-title="We Are A Social App Dedicated To Fixie Bikes On Smartphone Join Us Share Some Good Stuff And Let S Build That Com Fahrrad Design Fixie Fahrrad Fahrrad Sport">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/b6/fa/32/b6fa3237ea940d051768f9bf7a31985f.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSbkXJst3oGr-CgDyyI6aUIT-VXI6qkyztDGg';" alt="We Are A Social App Dedicated To Fixie Bikes On Smartphone Join Us Share Some Good Stuff And Let S Build That Com Fahrrad Design Fixie Fahrrad Fahrrad Sport">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">We Are A Social App Dedicated To Fixie Bikes On Smartphone Join Us Share Some Good Stuff And Let S Build That Com Fahrrad Design Fixie Fahrrad Fahrrad Sport</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/4d/fc/be/4dfcbe25d4d037b64c7eb2e63a96bd35.jpg" data-lightbox="roadtrip" data-title="Jo We Are A Social App Dedicated To Fixie Bikes On Smartphone Join Us Share Some Good Stuff And Lets Build That Community Together Fahrrad">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/4d/fc/be/4dfcbe25d4d037b64c7eb2e63a96bd35.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRs2VmsKc96qT8Gacn3-WJsJWiCDarDK-Kr8A';" alt="Jo We Are A Social App Dedicated To Fixie Bikes On Smartphone Join Us Share Some Good Stuff And Lets Build That Community Together Fahrrad">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Jo We Are A Social App Dedicated To Fixie Bikes On Smartphone Join Us Share Some Good Stuff And Lets Build That Community Together Fahrrad</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/c0/00/a5/c000a583d04b5e73b963cc70e331a649.png" data-lightbox="roadtrip" data-title="Fahrrad Apps An Diesen Radfahr Apps Kommst Du Nicht Vorbei In 2020 Fahrrad Fahrrad Navi Radfahren">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/c0/00/a5/c000a583d04b5e73b963cc70e331a649.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTuq3iTG9jlGgqJ1OQgXpGuFdlnJFf4y2KHGA';" alt="Fahrrad Apps An Diesen Radfahr Apps Kommst Du Nicht Vorbei In 2020 Fahrrad Fahrrad Navi Radfahren">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Fahrrad Apps An Diesen Radfahr Apps Kommst Du Nicht Vorbei In 2020 Fahrrad Fahrrad Navi Radfahren</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/564x/0c/21/e1/0c21e1c0105cfbe0752e3e7826fcc205.jpg" data-lightbox="roadtrip" data-title="Fixi Bike Rennrad Fahrrad">
+											<img class="card-img v-image" src="https://i.pinimg.com/564x/0c/21/e1/0c21e1c0105cfbe0752e3e7826fcc205.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcS5Luu4s6uJuWW78zB99IQsJ_bg_AMsu0Wv1A';" alt="Fixi Bike Rennrad Fahrrad">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Fixi Bike Rennrad Fahrrad</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/c9/f4/9f/c9f49f111ee68e90ee7c6b301bf9cd0f.jpg" data-lightbox="roadtrip" data-title="Bianchi Super Pista Bike Urban Bike Track Bike">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/c9/f4/9f/c9f49f111ee68e90ee7c6b301bf9cd0f.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSvdPHfwKrZm9tw7HU493n_WOTjNWFtzDD2NQ';" alt="Bianchi Super Pista Bike Urban Bike Track Bike">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Bianchi Super Pista Bike Urban Bike Track Bike</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/71/9d/b7/719db77ddc2a5642991aa5fd28f95e3e.jpg" data-lightbox="roadtrip" data-title="Pinoymtbiker Community On Instagram Beautiful Bike From Tomii Cycles In 2020 Retro Fahrrad Fahrrad Fixie Fahrrad">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/71/9d/b7/719db77ddc2a5642991aa5fd28f95e3e.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8MS-oCPBBNEPGJ8FTJD9R7r_0A9VUioD4zA';" alt="Pinoymtbiker Community On Instagram Beautiful Bike From Tomii Cycles In 2020 Retro Fahrrad Fahrrad Fixie Fahrrad">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pinoymtbiker Community On Instagram Beautiful Bike From Tomii Cycles In 2020 Retro Fahrrad Fahrrad Fixie Fahrrad</h3>
+				</div>
+			</div>
+		</div>
+			 
+					<div class="col-12 mb-4">
+				<div class="card">
+										<img class="card-img-top v-cover" src="https://i.pinimg.com/originals/05/03/d1/0503d1932465fc52785e363a33f7240f.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcT8MS-oCPBBNEPGJ8FTJD9R7r_0A9VUioD4zA';" alt="Pinoymtbiker Community On Instagram Beautiful Bike From Tomii Cycles In 2020 Retro Fahrrad Fahrrad Fixie Fahrrad">
+										<div class="card-body">
+						<h3 class="h5"><b>Zwift is virtual training for running and cycling.</b></h3>
+													<p class="p-2" align="justify">
+																	<strong>Fahrrad community app</strong>. 
+								
+																	Im detail navigation von a nach b mit zwischenstationen. 
+																	Ein fahrrad verursacht weder abgase noch verkehrslärm ist platzsparend und energieeffizient. 
+																	Join the rouvy community of passionate cyclists. 
+																	Registriere dein fahrrad werde fahrradjäger mit der fahrradjäger app kannst du ganz einfach und in wenigen sekunden ein fahrrad registrieren. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	Get your first region for free and say hello to your next adventure. 
+																	By signing in you agree to ourterms and conditions. 
+																	Die sprachnavigation hält dich immer auf kurs auch offline. 
+																	Mit komoot erlebst du mehr abenteuer egal wo dein entdeckergeist dich hinzieht. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	Turn your cycling routine into a fun adventure with rouvy 1 indoor cycling app with realistic road feel and simulation. 
+																	It s time to build your community. 
+																	Try free for 7 days. 
+																	Smash your goals and compete with others around the world. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	Sign in as administrator. 
+																	Trusted by the pros. 
+																	Meet the man bringing community back to social media. 
+																	Komoot die fahrrad navi app. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	Egal ob mountainbike crossbike e bike rennrad oder pedelec die kostenlose bikemap app hilft dir die schönsten routen zu navigieren inklusive sprachnavigation und inspiration durch über 5 millionen fahrradrouten weltweit. 
+																	Die kostenlose fahrrad app komoot ist für jeden radfahrer hilfreich wenn es darum geht maßgenschneiderte routen zu finden oder zu planen. 
+																	Gut für die umwelt wer radfährt fördert nicht nur die eigene gesundheit sondern schont gleichzeitig auch die umwelt. 
+																	Lade ein foto hoch notiere die rahmennummer den fahrradtyp den hersteller und andere merkmale die dein fahrrad einzigartig machen. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	Entdeck die besten wander mountainbike und rennradabenteuer bei komoot findest du unendlich viele abenteuer. 
+																	Denn mit dem fahrrad navi kannst du deine perfekte tour mit details wie wegbeschaffenheit schwierigkeit distanz und höhenmetern planen. 
+																	Just plan your hiking road cycling or mtb adventures in the planner and be guided along every trail track road or path even when you re offline. 
+																	Komoot is the key to the outdoors. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	Ob rennrad mtb oder wandern leg sofort los mit maßgeschneiderten routen oder plan deine ganz eigene tour. 
+																	With structured workouts and social group rides. 
+																	New apps are transforming the fan experience. 
+																	Tausche dich dazu in unserer radfahrer community mit anderen passionierten radfahrerinnen aus damit du richtig durchstarten kannst. 
+															</p>
+													<p class="p-2" align="justify">
+								
+																	Ios and android compatible. 
+																	Why your favorite celebs are ditching twitter for an app you ve never heard of. 
+															</p>
+											</div> 
+				</div>
+			</div>
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/56/6e/d0/566ed0d343b4185c49a9df44e447fb16.png" data-lightbox="roadtrip" data-title="Baykers Bike Rental Community App Bike Rental App Design Bike">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/56/6e/d0/566ed0d343b4185c49a9df44e447fb16.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTgJfV9lXc85DfvCxoVXg_sKg8eHml-b6plWg';" alt="Baykers Bike Rental Community App Bike Rental App Design Bike">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Baykers Bike Rental Community App Bike Rental App Design Bike</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/d6/97/d2/d697d2eff36f70d13f53fba345fa2d6c.jpg" data-lightbox="roadtrip" data-title="Fixieapp Fixie Cool Bicycles Bicycle">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/d6/97/d2/d697d2eff36f70d13f53fba345fa2d6c.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcScLvgfEKgSSOISgRKUN-ikqcQsk4FeYsywyg';" alt="Fixieapp Fixie Cool Bicycles Bicycle">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Fixieapp Fixie Cool Bicycles Bicycle</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/52/21/a2/5221a21d2ceb726f09fbd585e2fdfbe1.jpg" data-lightbox="roadtrip" data-title="Instagram Photo By Fixie App May 27 2016 At 2 01pm Utc Fixie Track Bike Fixedgear">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/52/21/a2/5221a21d2ceb726f09fbd585e2fdfbe1.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRur2xDF-nBRvAvS7gWwddwa5kDq6K-KgmXDw';" alt="Instagram Photo By Fixie App May 27 2016 At 2 01pm Utc Fixie Track Bike Fixedgear">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Instagram Photo By Fixie App May 27 2016 At 2 01pm Utc Fixie Track Bike Fixedgear</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/37/43/6e/37436e61bec64273a9b5f392151c864d.jpg" data-lightbox="roadtrip" data-title="Instagram Photo By Fixie App May 25 2016 At 8 30pm Utc Fixie Bike Bike Art Fixie">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/37/43/6e/37436e61bec64273a9b5f392151c864d.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRuib6hSFWI5JIpA6DakBddUqVYEOttkFoO9w';" alt="Instagram Photo By Fixie App May 25 2016 At 8 30pm Utc Fixie Bike Bike Art Fixie">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Instagram Photo By Fixie App May 25 2016 At 8 30pm Utc Fixie Bike Bike Art Fixie</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/d0/a1/21/d0a1217f2732948a806b1b14a3c006fe.jpg" data-lightbox="roadtrip" data-title="Sports Extreme Activity Action Awesome Perspective Fahrrad Design Fahrrad Singlespeeder">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/d0/a1/21/d0a1217f2732948a806b1b14a3c006fe.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTdzMYVsTGlnIMoeOC-OI458hjphgrATjrGkg';" alt="Sports Extreme Activity Action Awesome Perspective Fahrrad Design Fahrrad Singlespeeder">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Sports Extreme Activity Action Awesome Perspective Fahrrad Design Fahrrad Singlespeeder</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/63/7f/a6/637fa6b54a2647727116d7d22abc5f62.jpg" data-lightbox="roadtrip" data-title="Fahrrad Fahrrad Fixie Fahrrad Fahrrad Stil">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/63/7f/a6/637fa6b54a2647727116d7d22abc5f62.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRW75rqcYEa837E2bQqkP6Teqddlh3J2-ht-g';" alt="Fahrrad Fahrrad Fixie Fahrrad Fahrrad Stil">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Fahrrad Fahrrad Fixie Fahrrad Fahrrad Stil</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/2b/41/bc/2b41bc590b677969acca89d24f67d3da.jpg" data-lightbox="roadtrip" data-title="Instagram Photo By Fixie App Jun 5 2016 At 3 05pm Utc Fixie Fixie Bike Singlespeed Bicycle">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/2b/41/bc/2b41bc590b677969acca89d24f67d3da.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRGnViIo5GbJ8XrjtWkrRb9-V6kqyZbaqwy9w';" alt="Instagram Photo By Fixie App Jun 5 2016 At 3 05pm Utc Fixie Fixie Bike Singlespeed Bicycle">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Instagram Photo By Fixie App Jun 5 2016 At 3 05pm Utc Fixie Fixie Bike Singlespeed Bicycle</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/a7/79/cc/a779cc008be090c526de14325bf3cac9.jpg" data-lightbox="roadtrip" data-title="Liebe Kolner Gls Bank Community Wir Werben Jetzt Bald Klimafreundlich Mit Bikuh Fur Unsere Filiale Auf Zeit In Koln Fahrrad Werkstatt Fahrrad Fahrrad Fahren">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/a7/79/cc/a779cc008be090c526de14325bf3cac9.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQu6oIoSDe5LTn3iNWaAYyQw2nmW-t3gTlDNQ';" alt="Liebe Kolner Gls Bank Community Wir Werben Jetzt Bald Klimafreundlich Mit Bikuh Fur Unsere Filiale Auf Zeit In Koln Fahrrad Werkstatt Fahrrad Fahrrad Fahren">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Liebe Kolner Gls Bank Community Wir Werben Jetzt Bald Klimafreundlich Mit Bikuh Fur Unsere Filiale Auf Zeit In Koln Fahrrad Werkstatt Fahrrad Fahrrad Fahren</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/aa/38/0e/aa380e57f520b03d56ceb8117c33e5ee.jpg" data-lightbox="roadtrip" data-title="Fixie App We Are A Social App Dedicated To Fixie Fixie Fixie Bike Fixed Gear Bike">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/aa/38/0e/aa380e57f520b03d56ceb8117c33e5ee.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRtgDnAFhlGO5JhFrEOX1oTYKLaraNQVnTH2A';" alt="Fixie App We Are A Social App Dedicated To Fixie Fixie Fixie Bike Fixed Gear Bike">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Fixie App We Are A Social App Dedicated To Fixie Fixie Fixie Bike Fixed Gear Bike</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/f0/b6/0e/f0b60ef577a2a1452dc0d7919f57bcbc.png" data-lightbox="roadtrip" data-title="Bike Ecommerce Concept Web Design Inspiration Web Design Ecommerce App">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/f0/b6/0e/f0b60ef577a2a1452dc0d7919f57bcbc.png" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQax8DZ_Hc8g2-MIqwWao4cclGbb1SQIzG0ug';" alt="Bike Ecommerce Concept Web Design Inspiration Web Design Ecommerce App">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Bike Ecommerce Concept Web Design Inspiration Web Design Ecommerce App</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/d4/4d/d5/d44dd522fd2e191650bef6bfac395a33.jpg" data-lightbox="roadtrip" data-title="Ridefastdielast Fixie Fixed Bike Track Bike">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/d4/4d/d5/d44dd522fd2e191650bef6bfac395a33.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQSqK2UMUw3Sm0cDs0D1hraz5OIOvjA8YXkvw';" alt="Ridefastdielast Fixie Fixed Bike Track Bike">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Ridefastdielast Fixie Fixed Bike Track Bike</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/a6/82/e7/a682e753a2c3713131f84c59c2f6276b.jpg" data-lightbox="roadtrip" data-title="Instagram Photo By Fixie App May 17 2016 At 1 06pm Utc Girls Mac Fixie Bike">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/a6/82/e7/a682e753a2c3713131f84c59c2f6276b.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTBIcpzQbG8tarAcaYNGTXRVLDSPTRVwuIXdA';" alt="Instagram Photo By Fixie App May 17 2016 At 1 06pm Utc Girls Mac Fixie Bike">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Instagram Photo By Fixie App May 17 2016 At 1 06pm Utc Girls Mac Fixie Bike</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/05/03/d1/0503d1932465fc52785e363a33f7240f.jpg" data-lightbox="roadtrip" data-title="Fixie App On Instagram We Are A Social App Dedicated To Fixie Singlespeed Bikes On Smartphone Join Us Share Some G Paint Bike Bicycle Bicycle Painting">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/05/03/d1/0503d1932465fc52785e363a33f7240f.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQX_Xhi1bVvl8J9OcAbvcrMitW5icU-GOBj_g';" alt="Fixie App On Instagram We Are A Social App Dedicated To Fixie Singlespeed Bikes On Smartphone Join Us Share Some G Paint Bike Bicycle Bicycle Painting">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Fixie App On Instagram We Are A Social App Dedicated To Fixie Singlespeed Bikes On Smartphone Join Us Share Some G Paint Bike Bicycle Bicycle Painting</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/736x/0a/68/7e/0a687e8beab2f920f772441a343ef549.jpg" data-lightbox="roadtrip" data-title="Pin Von Lex Bechet Auf Roadbikes Radfahren Fahrrad Rad">
+											<img class="card-img v-image" src="https://i.pinimg.com/736x/0a/68/7e/0a687e8beab2f920f772441a343ef549.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQtOeXm3vfqMmWf0jC6o8HVregrPGgYCfs9eg';" alt="Pin Von Lex Bechet Auf Roadbikes Radfahren Fahrrad Rad">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Pin Von Lex Bechet Auf Roadbikes Radfahren Fahrrad Rad</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/e8/99/64/e899640db082e9604f13fa7ddfa06800.jpg" data-lightbox="roadtrip" data-title="Kagero Colossi 90mm Fahrrad Design Fahrrad Design">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/e8/99/64/e899640db082e9604f13fa7ddfa06800.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcTsmaFt7KNpSstwzrmT109a2E-8dKIq7INFJw';" alt="Kagero Colossi 90mm Fahrrad Design Fahrrad Design">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Kagero Colossi 90mm Fahrrad Design Fahrrad Design</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/87/7a/92/877a92f22a8f8e66179dbb73600b6dd6.jpg" data-lightbox="roadtrip" data-title="W Oo D E N R Ac K We Are A Social App Dedicated To Fixie Bikes On Smartphone Join Us Share Some Good Stuff And Let S Build That Commun Fixie Bike Bicycle">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/87/7a/92/877a92f22a8f8e66179dbb73600b6dd6.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSqpyQDO1kWfLwfm62D6S2lXO4o3ndIyExwzA';" alt="W Oo D E N R Ac K We Are A Social App Dedicated To Fixie Bikes On Smartphone Join Us Share Some Good Stuff And Let S Build That Commun Fixie Bike Bicycle">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">W Oo D E N R Ac K We Are A Social App Dedicated To Fixie Bikes On Smartphone Join Us Share Some Good Stuff And Let S Build That Commun Fixie Bike Bicycle</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/originals/aa/91/05/aa910586505743a8668865da8ab36dbe.jpg" data-lightbox="roadtrip" data-title="Nice Bike Fahrrad Design Fixie Fahrrad Fixi Bike">
+											<img class="card-img v-image" src="https://i.pinimg.com/originals/aa/91/05/aa910586505743a8668865da8ab36dbe.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSjIw1-_kCu9Qo-5x9YXfMZvsw5Bd_IeLoBKA';" alt="Nice Bike Fahrrad Design Fixie Fahrrad Fixi Bike">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">Nice Bike Fahrrad Design Fixie Fahrrad Fixi Bike</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+	 
+			
+        
+		<div class="col-md-4 mb-4">
+			<div class="card h-100">
+				<a href="https://i.pinimg.com/564x/6d/a1/ba/6da1babbccb4a9b3fabca66b8add2fca.jpg" data-lightbox="roadtrip" data-title="On Demand Bike Sharing Apps What Goes In Building Apps Like Ofo Mobike And Spin Bike Share Build An App App">
+											<img class="card-img v-image" src="https://i.pinimg.com/564x/6d/a1/ba/6da1babbccb4a9b3fabca66b8add2fca.jpg" onerror="this.onerror=null;this.src='https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQ9-tte6EegUDZs3XwSBH4f0TM4SyrmhZepiQ';" alt="On Demand Bike Sharing Apps What Goes In Building Apps Like Ofo Mobike And Spin Bike Share Build An App App">
+										
+				</a>
+				<div class="card-body text-center">      
+										<h3 class="h6">On Demand Bike Sharing Apps What Goes In Building Apps Like Ofo Mobike And Spin Bike Share Build An App App</h3>
+				</div>
+			</div>
+		</div>
+			 
+		 
+
+		</div>
+				<div class="clearfix"></div> 
+		<div class="d-block mt-4 p-3">
+			Source : <a href="https://pinterest.com" rel="nofollow noopener">pinterest.com</a>
+		</div>
+						</div>
+				</div> 
+				<div class="col-md-3">
+					<div class="col-sm-12 widget">
+						<h3 class="widget-title">Random Posts</h3>
+						<ul class="list-group">
+													<li class="list-group-item"><a href="/fahrrad-mieten-duhnen.html">Fahrrad Mieten Duhnen</a></li>
+													<li class="list-group-item"><a href="/fahrrad-ludwigsburg-imle.html">Fahrrad Ludwigsburg Imle</a></li>
+													<li class="list-group-item"><a href="/fahrrad-magdeburg-am-stern.html">Fahrrad Magdeburg Am Stern</a></li>
+													<li class="list-group-item"><a href="/fahrrad-marcks-bergedorf-kontakt.html">Fahrrad Marcks Bergedorf Kontakt</a></li>
+													<li class="list-group-item"><a href="/fahrrad-marcks-bergedorf-b%C3%B6rse-2020.html">Fahrrad Marcks Bergedorf Börse 2020</a></li>
+													<li class="list-group-item"><a href="/fahrrad-marcks-in-bergedorf.html">Fahrrad Marcks In Bergedorf</a></li>
+													<li class="list-group-item"><a href="/fahrrad-messe-ludwigsburg.html">Fahrrad Messe Ludwigsburg</a></li>
+													<li class="list-group-item"><a href="/fahrrad-mieten-chemnitz.html">Fahrrad Mieten Chemnitz</a></li>
+													<li class="list-group-item"><a href="/fahrrad-mieten-amsterdam-app.html">Fahrrad Mieten Amsterdam App</a></li>
+													<li class="list-group-item"><a href="/fahrrad-made-in-magdeburg.html">Fahrrad Made In Magdeburg</a></li>
+													<li class="list-group-item"><a href="/fahrrad-l%C3%B6ckenhoff-paderborn-%C3%B6ffnungszeiten.html">Fahrrad Löckenhoff Paderborn öffnungszeiten</a></li>
+													<li class="list-group-item"><a href="/fahrrad-marcks-hamburg-%C3%B6ffnungszeiten.html">Fahrrad Marcks Hamburg öffnungszeiten</a></li>
+													<li class="list-group-item"><a href="/fahrrad-messe-essen-2019-aussteller.html">Fahrrad Messe Essen 2019 Aussteller</a></li>
+													<li class="list-group-item"><a href="/fahrrad-marcks-geschichte.html">Fahrrad Marcks Geschichte</a></li>
+													<li class="list-group-item"><a href="/fahrrad-mieten-ameland.html">Fahrrad Mieten Ameland</a></li>
+													<li class="list-group-item"><a href="/fahrrad-luftdruck-mountainbike.html">Fahrrad Luftdruck Mountainbike</a></li>
+													<li class="list-group-item"><a href="/fahrrad-mieten-charlottenburg.html">Fahrrad Mieten Charlottenburg</a></li>
+													<li class="list-group-item"><a href="/fahrrad-link-quadrat.html">Fahrrad Link Quadrat</a></li>
+													<li class="list-group-item"><a href="/fahrrad-magdeburg-cracau.html">Fahrrad Magdeburg Cracau</a></li>
+													<li class="list-group-item"><a href="/fahrrad-magdeburg-leihen.html">Fahrrad Magdeburg Leihen</a></li>
+						 
+						</ul>
+					</div>
+					<div class="col-sm-12 widget">   <!-- Ads for my online shop -->
+						<h3 class="widget-title">Our Partner</h3>
+						<ul class="list-group">
+							<li class="list-group-item"><a href="https://p-store.net/user/morbtale">P-Store.net</a></li>
+							<li class="list-group-item"><a href="https://www.frematers.com/">Blog Frematers</a></li>
+							<li class="list-group-item"><a href="https://shop.frematers.com/">Shop Frematers</a></li>
+							<li class="list-group-item"><a href="https://polymorph.store">Mysthical Suit</a></li>
+						</ul>
+					</div> 
+					<div class="col-sm-12 widget">
+						<div class="d-block p-4">
+	<center>
+		<!-- SIDEBAR ADS -->
+		<script type="text/javascript">
+			atOptions = {
+				'key' : 'e4101ef479fdc51ec99e3074fa19ae8b',
+				'format' : 'iframe',
+				'height' : 600,
+				'width' : 160,
+				'params' : {}
+			};
+			document.write('<scr' + 'ipt type="text/javascript" src="http' + (location.protocol === 'https:' ? 's' : '') + '://0x01n2ptpuz3.com/e4101ef479fdc51ec99e3074fa19ae8b/invoke.js"></scr' + 'ipt>');
+		</script>
+	</center>
+</div>					</div>
+				</div> 
+				<div class="col-md-12 my-2" align="center">
+					<div class="d-block p-4">
+	<center>
+		<!-- BOTTOM BANNER ADS -->
+	</center>
+</div>				</div>
+			</div>
+			<div class="row footer">
+				<div class="col-md-12 text-center">
+										<a href="/p/dmca.html">Dmca</a>
+										<a href="/p/contact.html">Contact</a>
+										<a href="/p/privacy-policy.html">Privacy Policy</a>
+										<a href="/p/copyright.html">Copyright</a>
+									</div>
+			</div>
+		</div>		
+	</main>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/js/all.min.js" integrity="sha256-MAgcygDRahs+F/Nk5Vz387whB4kSK9NXlDN3w58LLq0=" crossorigin="anonymous"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.1/js/lightbox.min.js" integrity="sha256-CtKylYan+AJuoH8jrMht1+1PMhMqrKnB8K5g012WN5I=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<!-- Footer CSS JS -->
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-2MNNRX5F0D"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-2MNNRX5F0D');
+</script>	
+		<script type="text/javascript">
+		$(document).ready(function()
+		{
+		  $('body').addClass('xepo_ads');
+		});
+
+		$(document).on('click','.xepo_ads',function(e)
+		{
+		    $(this).removeClass('xepo_ads');
+		    window.open('https://0x01n2ptpuz3.com/atjjdvetqf?key=3242239328eef9453bdbce288d8496c9', '_blank');
+		});
+	</script>
+	
+	
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/downloadjs/1.4.8/download.min.js"></script>
+	<script type='text/javascript'>
+		$(document).ready(function()
+	    {
+			$(document).on('click','#image-download',function(e)
+			{
+				e.preventDefault();
+				var url = $(this).data('url');
+				var title = $(this).data('title');			
+				var x=new XMLHttpRequest();
+				x.open( "GET", url , true);
+				x.responseType="blob";
+				x.onload= function(e){download(e.target.response, title, "image/jpg");};
+				x.send();
+			});
+	    });
+	</script>
+	
+	<script type="text/javascript">
+        var search = document.getElementById("search-box");
+        search.addEventListener("keyup", function(event) {
+            event.preventDefault();
+            if (event.keyCode === 13) {
+                var target = 'site:'+location.host+' '+search.value;
+                var uri= 'https://www.google.com/search?q='+encodeURIComponent(target);
+                window.location= uri;
+            }
+        });
+    </script>
+</body>
+</html>
